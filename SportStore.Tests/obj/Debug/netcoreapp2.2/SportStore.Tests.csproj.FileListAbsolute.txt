@@ -6,9 +6,9 @@ C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.Tests.runtimeconfig.dev.json
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.Tests.dll
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.Tests.pdb
+C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.csprojAssemblyReference.cache
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.AssemblyInfoInputs.cache
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.AssemblyInfo.cs
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.dll
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.pdb
-C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.csprojAssemblyReference.cache
