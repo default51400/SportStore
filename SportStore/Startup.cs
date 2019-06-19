@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using SportStore.Models;
 using SportStore.Models.Repository;
-
+using Microsoft.AspNetCore.Localization;
 
 namespace SportStore
 {
@@ -26,11 +26,10 @@ namespace SportStore
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IProductRepository, FakeProductRepository>();
-            services.AddMvc();
-
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IProductRepository, EFProductRepository>();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,13 +39,19 @@ namespace SportStore
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseRequestLocalization(new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture("en-US"),
+            });
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseMvc(routes =>
             {
-                routes.MapRoute(name: default, template: "{controller=Product}/{action=List}/{id?}");
+                routes.MapRoute(
+                    name: default, 
+                    template: "{controller=Product}/{action=List}/{id?}");
             });
+            SeedData.EnsurePopulated(app);
         }
     }
 }
