@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "wwwroot/lib/jquery/jquery.min.js",
+    "inputFiles": [
+      "wwwroot/lib/jquery/jquery.js"
+    ]
+  }
+]
