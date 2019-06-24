@@ -2894,6 +2894,7 @@
       "path": "system.collections.immutable/1.2.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Collections.Immutable.dll",
@@ -3044,6 +3045,7 @@
       "path": "system.componentmodel.eventbasedasync/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4441,6 +4443,7 @@
       "path": "system.reflection.metadata/1.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.1/System.Reflection.Metadata.dll",
@@ -6030,23 +6033,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Al.Panda\\.nuget\\packages\\": {},
+    "C:\\Users\\Alexey\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Al.Panda\\source\\repos\\SportStore\\SportStore.Tests\\SportStore.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Alexey\\source\\repos\\SportStore\\SportStore.Tests\\SportStore.Tests.csproj",
       "projectName": "SportStore.Tests",
-      "projectPath": "C:\\Users\\Al.Panda\\source\\repos\\SportStore\\SportStore.Tests\\SportStore.Tests.csproj",
-      "packagesPath": "C:\\Users\\Al.Panda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Al.Panda\\source\\repos\\SportStore\\SportStore.Tests\\obj\\",
+      "projectPath": "C:\\Users\\Alexey\\source\\repos\\SportStore\\SportStore.Tests\\SportStore.Tests.csproj",
+      "packagesPath": "C:\\Users\\Alexey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alexey\\source\\repos\\SportStore\\SportStore.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Al.Panda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexey\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Al.Panda\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Al.Panda\\.nuget\\packages",
+      "C:\\Users\\Alexey\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Alexey\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
