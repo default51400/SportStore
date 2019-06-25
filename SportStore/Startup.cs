@@ -52,12 +52,15 @@ namespace SportStore
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseStatusCodePages();
             }
+            else app.UseExceptionHandler("/Error");
+
             app.UseRequestLocalization(new RequestLocalizationOptions
             {
                 DefaultRequestCulture = new RequestCulture("en-US"),
             });
-            app.UseStatusCodePages();
+            
             app.UseStaticFiles();
             app.UseSession();
             app.UseAuthentication();

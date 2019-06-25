@@ -70,3 +70,4 @@ C:\Users\Alexey\source\repos\SportStore\SportStore\obj\Debug\netcoreapp2.2\Sport
 C:\Users\Alexey\source\repos\SportStore\SportStore\obj\Debug\netcoreapp2.2\SportStore.pdb
 C:\Users\Alexey\source\repos\SportStore\SportStore\obj\Debug\netcoreapp2.2\SportStore.csproj.CopyComplete
 C:\Users\Alexey\source\repos\SportStore\SportStore\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\Alexey\source\repos\SportStore\SportStore\obj\Debug\netcoreapp2.2\SportStore.csprojAssemblyReference.cache

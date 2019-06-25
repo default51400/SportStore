@@ -3,16 +3,17 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using SportStore.Models.Repository;
 using System.Linq;
+using System;
 
 namespace SportStore.Models
 {
     public static class SeedData
     {
-        public static void EnsurePopulated(IApplicationBuilder app)
+        public static void EnsurePopulated(IServiceProvider services)
         {
-            ApplicationDbContext context = app.ApplicationServices
-                .GetRequiredService<ApplicationDbContext>();
-            context.Database.Migrate();
+            ApplicationDbContext context = 
+                services.GetRequiredService<ApplicationDbContext>();
+            //context.Database.Migrate();
             if (!context.Products.Any())
             {
                 context.Products.AddRange(
