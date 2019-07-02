@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[2.2.3, )"
             },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
             "jQuery": {
               "target": "Package",
               "version": "[3.2.1, )"
