@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "a977a0e551c788bfb70b6e122f31e04b56fd0808"
+    "signature": "fb95a0310858fcb29a1399c8f88ba529b3ed8875"
   },
   "compilationOptions": {},
   "targets": {
@@ -1160,6 +1160,26 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.1.20722"
+          }
+        }
+      },
+      "NLog/4.6.4": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.4.10085"
+          }
+        }
+      },
+      "NLog.Extensions.Logging/1.5.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "2.2.0",
+          "NLog": "4.6.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.5.1.998"
           }
         }
       },
@@ -2474,6 +2494,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
+          "NLog.Extensions.Logging": "1.5.1",
           "jQuery": "3.2.1"
         },
         "runtime": {
@@ -3020,6 +3041,20 @@
       "sha512": "sha512-5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
+    },
+    "NLog/4.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aC4Hrp2g5fzrIl3aWGa/nBWZxlk/QUQLA8vfOLR6FdwgVhyQ8EOgSrq5ssKjEFb3qogx9m66v0pZPT1AaqBarQ==",
+      "path": "nlog/4.6.4",
+      "hashPath": "nlog.4.6.4.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RvP4qVxamyKD5R1pkN0Yk3/pMG603SFDBu7UFGLhPDKKGWs9oMxmy72uGHs9QaDbUvES2+YD7/4XjqMsnaiSpg==",
+      "path": "nlog.extensions.logging/1.5.1",
+      "hashPath": "nlog.extensions.logging.1.5.1.nupkg.sha512"
     },
     "NuGet.Frameworks/4.7.0": {
       "type": "package",

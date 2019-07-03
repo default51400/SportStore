@@ -10,10 +10,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SportStore.Tests
 {
-
     public class ProductControllerTests
     {
-
         [Fact]
         public void Can_Paginate()
         {
@@ -44,7 +42,6 @@ namespace SportStore.Tests
         [Fact]
         public void Can_Send_Pagination_View_Model()
         {
-
             // Arrange
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
             mock.Setup(m => m.Products).Returns((new Product[] {
@@ -74,7 +71,6 @@ namespace SportStore.Tests
         [Fact]
         public void Can_Filter_Products()
         {
-
             // Arrange
             // - create the mock repository
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
@@ -132,8 +128,5 @@ namespace SportStore.Tests
             Assert.Equal(1, res3);
             Assert.Equal(5, resAll);
         }
-
-
-
     }
 }

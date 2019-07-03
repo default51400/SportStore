@@ -1,5 +1,4 @@
-﻿using SportStore.Models;
-
+﻿
 namespace SportStore.Models.ViewModels
 {
     public class CartIndexViewModel

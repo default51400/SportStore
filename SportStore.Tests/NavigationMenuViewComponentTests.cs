@@ -10,10 +10,8 @@ using Microsoft.AspNetCore.Routing;
 
 namespace SportStore.Tests
 {
-
     public class NavigationMenuViewComponentTests
     {
-
         [Fact]
         public void Can_Select_Categories()
         {
@@ -41,7 +39,6 @@ namespace SportStore.Tests
         [Fact]
         public void Indicates_Selected_Category()
         {
-
             // Arrange
             string categoryToSelect = "Apples";
             Mock<IProductRepository> mock = new Mock<IProductRepository>();

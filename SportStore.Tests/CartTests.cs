@@ -4,14 +4,11 @@ using Xunit;
 
 namespace SportStore.Tests
 {
-
     public class CartTests
     {
-
         [Fact]
         public void Can_Add_New_Lines()
         {
-
             // Arrange - create some test products
             Product p1 = new Product { ProductId = 1, Name = "P1" };
             Product p2 = new Product { ProductId = 2, Name = "P2" };

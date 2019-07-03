@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "ca0ff1df91b830b1bc87c391f3cca6fd81c7f46b"
+    "signature": "b041d35c9bd42662a3cd699ea787b1c1d3fdb52c"
   },
   "compilationOptions": {
     "defines": [
@@ -27,9 +27,9 @@
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore": "2.2.0",
-          "Microsoft.Extensions.Logging": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
+          "NLog.Extensions.Logging": "1.5.1",
           "jQuery": "3.2.1"
         },
         "runtime": {
@@ -193,6 +193,32 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {}
+        }
+      },
+      "NLog/4.6.4": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.4.10085"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
+      "NLog.Extensions.Logging/1.5.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "2.2.0",
+          "NLog": "4.6.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.5.1.998"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.Extensions.Logging.dll": {}
         }
       },
       "NuGet.Frameworks/4.7.0": {
@@ -3624,6 +3650,20 @@
       "sha512": "sha512-0gVuA4KUCHFM4M/9SjG+7j7BzZ7SW/BufF97Q78i2VV8JBbQXc/5Rf6YUG1VGW2fwSEOl9+S26utEGS+86GGGw==",
       "path": "microsoft.visualstudio.web.codegenerators.mvc/2.2.3",
       "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.2.2.3.nupkg.sha512"
+    },
+    "NLog/4.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aC4Hrp2g5fzrIl3aWGa/nBWZxlk/QUQLA8vfOLR6FdwgVhyQ8EOgSrq5ssKjEFb3qogx9m66v0pZPT1AaqBarQ==",
+      "path": "nlog/4.6.4",
+      "hashPath": "nlog.4.6.4.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RvP4qVxamyKD5R1pkN0Yk3/pMG603SFDBu7UFGLhPDKKGWs9oMxmy72uGHs9QaDbUvES2+YD7/4XjqMsnaiSpg==",
+      "path": "nlog.extensions.logging/1.5.1",
+      "hashPath": "nlog.extensions.logging.1.5.1.nupkg.sha512"
     },
     "NuGet.Frameworks/4.7.0": {
       "type": "package",

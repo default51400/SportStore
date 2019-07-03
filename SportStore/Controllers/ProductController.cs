@@ -2,7 +2,6 @@
 using System.Linq;
 using SportStore.Models;
 using SportStore.Models.ViewModels;
-using SportStore.Models.Repository;
 
 namespace SportStore.Controllers
 {

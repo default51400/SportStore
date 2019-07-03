@@ -10,10 +10,8 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
 namespace SportStore.Tests
 {
-
     public class AdminControllerTests
     {
-
         [Fact]
         public void Index_Contains_All_Products()
         {

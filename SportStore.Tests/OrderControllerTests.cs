@@ -7,10 +7,8 @@ using Xunit;
 
 namespace SportStore.Tests
 {
-
     public class OrderControllerTests
     {
-
         [Fact]
         public void Cannot_Checkout_Empty_Cart()
         {
@@ -37,7 +35,6 @@ namespace SportStore.Tests
         [Fact]
         public void Cannot_Checkout_Invalid_ShippingDetails()
         {
-
             // Arrange - create a mock order repository
             Mock<IOrderRepository> mock = new Mock<IOrderRepository>();
             // Arrange - create a cart with one item
