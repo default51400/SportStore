@@ -26,9 +26,7 @@ C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.Tests.runtimeconfig.dev.json
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.Tests.dll
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.Tests.pdb
-C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Razor.dll
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.pdb
-C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Razor.xml
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.csproj.CopyComplete
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.dll
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.pdb
