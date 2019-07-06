@@ -11,11 +11,6 @@ C:\Users\Alexey\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2
 C:\Users\Alexey\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.AssemblyInfo.cs
 C:\Users\Alexey\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.dll
 C:\Users\Alexey\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.pdb
-C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.dll
-C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.csprojAssemblyReference.cache
-C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.csproj.CoreCompileInputs.cache
-C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.AssemblyInfoInputs.cache
-C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.AssemblyInfo.cs
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.Views.dll
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.Views.pdb
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
@@ -26,7 +21,12 @@ C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.Tests.runtimeconfig.dev.json
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.Tests.dll
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.Tests.pdb
+C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.dll
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.2\SportStore.pdb
+C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.csprojAssemblyReference.cache
+C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.AssemblyInfoInputs.cache
+C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.AssemblyInfo.cs
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.csproj.CopyComplete
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.dll
 C:\Users\Al.Panda\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.2\SportStore.Tests.pdb
