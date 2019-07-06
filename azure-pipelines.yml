@@ -15,9 +15,15 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet restore
-
-- task: NuGetToolInstaller@0
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: '/2945871d-dd5c-4eda-883e-fd47f961cd5e'
+- task: NuGetToolInstaller@1
+  inputs:
+    versionSpec: 
 
 - task: NuGetCommand@2
   inputs:
