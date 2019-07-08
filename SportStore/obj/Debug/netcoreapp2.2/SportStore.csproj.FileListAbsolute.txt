@@ -72,4 +72,3 @@ C:\Users\Al.Panda\source\repos\SportStore\SportStore\obj\Debug\netcoreapp2.2\Spo
 C:\Users\Al.Panda\source\repos\SportStore\SportStore\obj\Debug\netcoreapp2.2\SportStore.dll
 C:\Users\Al.Panda\source\repos\SportStore\SportStore\obj\Debug\netcoreapp2.2\SportStore.pdb
 C:\Users\Al.Panda\source\repos\SportStore\SportStore\obj\Debug\netcoreapp2.2\SportStore.csproj.CopyComplete
-C:\Users\Al.Panda\source\repos\SportStore\SportStore\obj\Debug\netcoreapp2.2\SportStore.csprojAssemblyReference.cache
