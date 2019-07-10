@@ -22,7 +22,7 @@ namespace SportStore.Controllers
             View(_repository.Orders.Where(o => !o.IsShipped));
 
         [HttpPost]
-        [Authorize]
+        //[Authorize]
         public IActionResult MarkShipped(int orderId)
         {
             Order order = _repository.Orders

@@ -5,7 +5,7 @@ using SportStore.Models;
 
 namespace SportStore.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class AdminController : Controller
     {
         private IProductRepository _repository;

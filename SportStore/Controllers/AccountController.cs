@@ -7,7 +7,7 @@ using SportStore.Models;
 
 namespace SportStore.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class AccountController : Controller
     {
         private UserManager<IdentityUser> userManager;
