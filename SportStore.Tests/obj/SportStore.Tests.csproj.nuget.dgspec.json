@@ -4,6 +4,17 @@
     "C:\\Users\\Al.Panda\\source\\repos\\SportStore\\SportStore.Tests\\SportStore.Tests.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Al.Panda\\source\\repos\\SportStore\\ClassLibrary\\ClassLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Al.Panda\\source\\repos\\SportStore\\ClassLibrary\\ClassLibrary.csproj",
+        "projectName": "ClassLibrary",
+        "projectPath": "C:\\Users\\Al.Panda\\source\\repos\\SportStore\\ClassLibrary\\ClassLibrary.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\Al.Panda\\source\\repos\\SportStore\\SportStore.Tests\\SportStore.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -123,7 +134,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Al.Panda\\source\\repos\\SportStore\\ClassLibrary\\ClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\Al.Panda\\source\\repos\\SportStore\\ClassLibrary\\ClassLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
