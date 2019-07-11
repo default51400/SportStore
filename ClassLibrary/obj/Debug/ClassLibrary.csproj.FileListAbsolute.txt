@@ -1,6 +1,0 @@
-C:\Users\Al.Panda\source\repos\SportStore\ClassLibrary\bin\Debug\ClassLibrary.dll
-C:\Users\Al.Panda\source\repos\SportStore\ClassLibrary\bin\Debug\ClassLibrary.pdb
-C:\Users\Al.Panda\source\repos\SportStore\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
-C:\Users\Al.Panda\source\repos\SportStore\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
-C:\Users\Al.Panda\source\repos\SportStore\ClassLibrary\obj\Debug\ClassLibrary.dll
-C:\Users\Al.Panda\source\repos\SportStore\ClassLibrary\obj\Debug\ClassLibrary.pdb

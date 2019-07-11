@@ -2,7 +2,6 @@
 using System.Linq;
 using SportStore.Models;
 using SportStore.Models.ViewModels;
-using ClassLibrary;
 
 namespace SportStore.Controllers
 {
@@ -14,8 +13,6 @@ namespace SportStore.Controllers
         public ProductController(IProductRepository repository)
         {
             _repository = repository;
-            Class1 cl = new Class1();
-            int a = cl.SumDll(1, 2);
         }
 
         public ViewResult List(string category, int productPage = 1)
